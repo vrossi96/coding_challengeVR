@@ -1,0 +1,80 @@
+body {
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  margin: 2%
+}
+
+/* Font */
+h1, h2, main div, p {
+  font-family: sans-serif;
+}
+
+/* Blocco generale della pagina */
+.contenitore {
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  padding: 4%;
+  border-radius: 20px;
+}
+
+/* Elementi, logo, motto e tasti centrati */
+header, nav {
+  text-align: center;
+  color: rgba(0,221,0,255);
+}
+
+/* Grandezza Logo */
+header img {
+  width: 25%;
+}
+
+/* Sfondo tasti nav */
+nav {
+  background-color: rgba(0,221,0,255);
+  padding: 12px;
+  border-radius: 20px;
+}
+
+/* Nomi Monopattini */
+main h2 {
+  display: inline-block;
+  color: white;
+}
+
+/* Colore font nel main */
+main div, p {
+  color: white;
+  font-weight: 500;
+}
+
+/* Barre stato di carica */
+/* Generale */
+.barracarica {
+  height: 25px;
+  border-radius: 5px;
+}
+
+/* Carica al massimo */
+.barracarica.full {
+  width: 80%;
+  background-color: rgba(0,221,0,255);
+}
+
+/* Carica per 3 quarti */
+.barracarica.trequarti {
+  width: 60%;
+  background-color: orange;
+}
+
+/* Carica a metà */
+.barracarica.half {
+  width: 40%;
+  background-color: #EB7701;
+}
+
+/* Carica per 1 quarto */
+.barracarica.quarto {
+  width: 20%;
+  background-color: red;
+}
